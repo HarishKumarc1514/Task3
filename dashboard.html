@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Metrics Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mt-5">Company Metrics Dashboard</h1>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Total Revenue
+          </div>
+          <div class="card-body">
+            <canvas id="totalRevenueChart"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Outstanding Amount
+          </div>
+          <div class="card-body">
+            <canvas id="outstandingAmountChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
